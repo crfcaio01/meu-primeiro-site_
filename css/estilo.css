@@ -24,7 +24,7 @@ body{
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
-	color: #fff;
+	color: #e5b735;
 	border-bottom: 2px solid #e5b735;
 	font-size: 24px;
 }
