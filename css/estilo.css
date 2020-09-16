@@ -1,0 +1,200 @@
+/* Layout 
+---------------------------------*/
+
+html, body{
+	height: 100%;
+}
+
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	background: #E4E6E6;	
+}
+
+
+/* Barra de navegação 
+---------------------------------*/
+.navbar-light{
+	background: black;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #e5b735;
+	font-size: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #fff;
+	border-bottom: 2px solid #e5b735;
+	font-size: 24px;
+}
+
+.navbar-collapse .navbar-nav .nav-link:visited {
+	color: #e5b735;
+}
+
+.navbar-light .navbar-toggler{
+	background: #e5b735;
+	color: white;
+
+}
+
+
+/* Fim Barra de navegação 
+---------------------------------*/
+
+/* Capa
+---------------------------------*/
+
+.controle-capa{
+	padding-top: 85px;
+	height: 936px;
+	width: 100%;	
+}
+
+.btn-customizado{
+	color: #fff;
+	background: #e5b735;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	font-size: 25px;
+}
+
+/* Fim Capa 
+---------------------------------*/
+
+/* Section Fome
+---------------------------------*/
+
+.padrao-fundo{
+	background: #E4E6E6;
+}
+
+
+#lista:hover{
+	background: #e5b735;
+}
+
+.list-group li{
+	list-style-type: square;
+}
+
+/* Fim Fome 
+---------------------------------*/
+
+
+/* Inicio Mapa 
+---------------------------------*/
+
+#mapa{
+	background: url(../imagens/mapa.png);
+	background-attachment: fixed;
+}
+
+ 
+.col{
+	margin: 350px;
+}
+
+/* Fim Mapa 
+---------------------------------*/
+
+/* Inicio Agricultura Sustentável 
+---------------------------------*/
+
+#agricultura{
+	background: url(../imagens/agricultura_sustentavel.png),
+				url(../imagens/ruido.png),
+				linear-gradient(50deg, #9ec7a6,#d4cacc);
+	background-attachment: fixed;
+}
+
+
+/* Fim Agricultura Sustentável 
+---------------------------------*/
+/* Sobre*/ 
+
+#sobre{
+
+	text-align: right;
+	background: #E4E6E6;
+}
+
+#sobre a{
+	text-decoration: none;
+	color: #e5b735;
+}
+
+#imagens{
+	width: 692px;
+	height: 357px;
+	padding: 22px;
+	padding-bottom: 60px;
+}
+
+#imagens1{
+	width: 675px;
+	height: 357px;
+	padding: 8px;
+	padding-bottom: 60px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+/* fim sobre*/ 
+
+.back-to-top{
+	color: #e5b735;
+	font-size: 4em;
+}
+
+.back-to-top:hover{
+	font-size: 4.4em;
+}
+
+#rodape{
+	background: black;
+}
+
+#rodape h4{
+	color: #e5b735;
+}
+
+
+#rodape a{
+	color: #e5b735;
+	text-decoration: none;
+}
+
+#rodape ul li a:hover{
+	color: #e5b735;
+	font-size: 20px;
+	border-bottom: 2px solid #e5b735;
+}
+
+#rodape li{
+	font-size: 19px;
+	text-align: center;
+}
+
+#rodape p{
+	font-size: 19px;
+	color: #e5b735;
+}
+
+
+
+
+/* Fim Rodape
+---------------------------------*/
